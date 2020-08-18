@@ -1,7 +1,11 @@
-# Image-Homography-Image2World
+# Image-Homography-Image2World Project
 Image Homography Transformation from Image to World points
 
-OpenCV library has to be installed into C++ in order to do Homography transform. Remember to add the OpenCV library.
+# Project Wiki
+This project was the initial development of the Social Distancing Alert System based on Homography.
+
+# ** MUST READ **
+OpenCV library has to be installed into C++ in order to do Homography transform. 
 
 In Image Homography, it is best to have background tiles for reference. See "floor".
 
@@ -37,4 +41,7 @@ These idealPoints are the actual real world location coordinates to verify if th
 Draw these idealPoints on the map and compare both. 
 See (floor_mapview.bmp - Blue circles are idealPoints)
 
----------------------------------- E N D ------------------------------------------------
+# (Credits)
+Homography Code (Courtesy of Mika) https://stackoverflow.com/questions/25769707/camera-pixels-to-planar-world-points-given-4-known-points
+
+getPerspectiveTransform Source Code (Courtesy of OpenCV Dev) https://github.com/opencv/opencv/blob/master/modules/imgproc/src/imgwarp.cpp
