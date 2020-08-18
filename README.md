@@ -1,7 +1,7 @@
 # Image-Homography-Image2World
 Image Homography Transformation from Image to World points
 
-In Image Homography, it is best to have a backgreund for reference. for example we have the floor tles.
+In Image Homography, it is best to have background tiles for reference. You can view the image called "floor".
 
 # Steps for Homography (Image2World)
 
